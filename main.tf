@@ -8,7 +8,7 @@ terraform {
 }
 
 module "example-module" {
-  source  = "tfe-japan.abasista.sbx.hashidemos.io/banana/example-module/random"
+  source  = "tfe.terraterm2-demo.click/20250417"
   version = "1.2.0"
 
   pet_length    = var.pet_length
