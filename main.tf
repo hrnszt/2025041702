@@ -9,7 +9,7 @@ terraform {
 
 module "example-module" {
   source  = "tfe.terraterm2-demo.click/20250417"
-  version = "1.2.0"
+  version = "1.0.0"
 
   pet_length    = var.pet_length
   pet_prefix    = var.pet_prefix
